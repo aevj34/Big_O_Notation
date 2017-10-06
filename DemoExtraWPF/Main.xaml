@@ -1,0 +1,29 @@
+﻿<Window x:Class="Main"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Notación Big O" Height="300" Width="300" WindowStartupLocation="CenterScreen">
+    
+    <Grid Margin="0,0,0,20">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Name="btnFibonacci" Width="100" Height="30" Foreground="{StaticResource ForegroundBrush}" Style="{x:Null}"  Grid.Row="0" Margin="5,0,5,0" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <TextBlock Text="Fibonacci" FontWeight="SemiBold" Margin="1,0,0,0"></TextBlock>
+        </Button>
+
+        <Button Name="btnBusqueda" Width="160" Height="30" Foreground="{StaticResource ForegroundBrush}" Style="{x:Null}"  Grid.Row="1" Margin="5,0,5,0" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <TextBlock Text="Búsqueda Lineal/Binaria" FontWeight="SemiBold" Margin="1,0,0,0"></TextBlock>
+        </Button>
+
+        <Button Name="btnIpUnico" Width="160" Height="30" Foreground="{StaticResource ForegroundBrush}" Style="{x:Null}"  Grid.Row="2" Margin="5,0,5,0" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <TextBlock Text="Uniques IP" FontWeight="SemiBold" Margin="1,0,0,0"></TextBlock>
+        </Button>
+        
+    </Grid>
+    
+    
+</Window>
